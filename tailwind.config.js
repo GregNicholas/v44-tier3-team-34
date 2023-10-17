@@ -21,13 +21,16 @@ export default {
         'white': '#FFFFFF',
       },
       backgroundImage: {
-        'hero': "url('./src/assets/pet-hero.jpg')",
+        'hero': "url('/src/assets/pet-hero.avif')",
       },
       textShadow: {
         sm: '1px 1px 6px black',
         DEFAULT: '2px 2px 4px black',
         lg: '0 8px 16px black',
       },
+      animation: {
+        'ping-once': 'ping 0.8s cubic-bezier(0.4, 0, 0.6, 1) 1',
+      }
     },
   },
   plugins: [
